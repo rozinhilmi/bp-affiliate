@@ -1,0 +1,120 @@
+{
+  "carousel_content": {
+    "gambar": "headline.png",
+    "title": "Connecting creators and sellers through creativity and commission",
+    "description": "New marketing channels for brands and new monetization opportunities for creators."
+  },
+  "target": {
+    "gambar": "target.png",
+    "data": [
+      {
+        "title": "Untuk Koreator",
+        "description": "Link up with creators and pay commission on successful sales."
+      },
+      {
+        "title": "Untuk Komunitas",
+        "description": "Promote brands that are relevant to your followers."
+      }
+    ]
+  },
+  "kreator": {
+    "gambar": "affiliate-for-seller.png",
+    "title": "Affiliate untuk Kreator",
+    "list": [
+      "Lorem ipsum dolor sit amet",
+      "Consectetur adipiscing elit",
+      "Integer molestie lorem at massa",
+      "Facilisis in pretium nisl aliquet"
+    ]
+  },
+  "komunitas": {
+    "gambar": "affiliate-for-creator.png",
+    "title": "Affiliate untuk Komunitas",
+    "list": [
+      "Lorem ipsum dolor sit amet",
+      "Consectetur adipiscing elit",
+      "Integer molestie lorem at massa",
+      "Facilisis in pretium nisl aliquet"
+    ]
+  },
+  "plan": {
+    "title": "Affiliate Plans",
+    "description": "Set different commission plans based on your sales needs",
+    "kreator": [
+      {
+        "gambar": "shop-plan.png",
+        "title": "Shop Plan",
+        "description": "Quickly set a basic flat commission rate for all products."
+      },
+      {
+        "gambar": "open-plan.png",
+        "title": "Open Plan",
+        "description": "Create a special plan for particular products, open to all creators."
+      },
+      {
+        "gambar": "target-plan.png",
+        "title": "Targeted",
+        "description": "Invite particular creators to promote selected products."
+      }
+    ],
+    "komunitas": [
+      {
+        "gambar": "find-product-plan.png",
+        "title": "Find Product",
+        "description": "Find products that speak to your followers."
+      },
+      {
+        "gambar": "sample-plan.png",
+        "title": "Get Samples",
+        "description": "Contact sellers to request samples."
+      },
+      {
+        "gambar": "sell-plan.png",
+        "title": "Sell Product",
+        "description": "Get creative introducing the product to your followers."
+      }
+    ]
+  },
+  "join_affiliate": {
+    "title": "Join BP Gamestore Affiliate now",
+    "kreator": [
+      {
+        "gambar": "shop-plan.png",
+        "title": "Step 1",
+        "description": "Log in to TikTok Shop Seller Center."
+      },
+      {
+        "gambar": "open-plan.png",
+        "title": "Step 2",
+        "description": "Click the Affiliate Marketing button at the top"
+      },
+      {
+        "gambar": "target-plan.png",
+        "title": "Step 3",
+        "description": "Create an affiliate plan based on your needs."
+      }
+    ],
+    "komunitas": [
+      {
+        "gambar": "find-product-plan.png",
+        "title": "Step 1",
+        "description": "Get permission to sell products."
+      },
+      {
+        "gambar": "sample-plan.png",
+        "title": "Step 2",
+        "description": "Add your contact information."
+      },
+      {
+        "gambar": "sell-plan.png",
+        "title": "Step 3",
+        "description": "Add products to your showcase."
+      },
+      {
+        "gambar": "sell-plan.png",
+        "title": "Step 4",
+        "description": "Get samples and sell the product."
+      }
+    ]
+  }
+}
