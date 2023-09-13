@@ -81,39 +81,44 @@
       {
         "gambar": "shop-plan.png",
         "title": "Step 1",
-        "description": "Log in to TikTok Shop Seller Center."
+        "description": "Calon affilitor wajib sudah mempunyai akun web BP."
       },
       {
         "gambar": "open-plan.png",
         "title": "Step 2",
-        "description": "Click the Affiliate Marketing button at the top"
+        "description": "Mengisi Form."
       },
       {
         "gambar": "target-plan.png",
         "title": "Step 3",
-        "description": "Create an affiliate plan based on your needs."
+        "description": "Menunggu Validasi."
+      },
+      {
+        "gambar": "sell-plan.png",
+        "title": "Step 4",
+        "description": "Dihubungi oleh pihak BP dan pemberian kode voucher."
       }
     ],
     "komunitas": [
       {
         "gambar": "find-product-plan.png",
         "title": "Step 1",
-        "description": "Get permission to sell products."
+        "description": "Calon affilitor wajib sudah mempunyai akun web BP."
       },
       {
         "gambar": "sample-plan.png",
         "title": "Step 2",
-        "description": "Add your contact information."
+        "description": "Mengisi Form."
       },
       {
         "gambar": "sell-plan.png",
         "title": "Step 3",
-        "description": "Add products to your showcase."
+        "description": "Menunggu Validasi."
       },
       {
         "gambar": "sell-plan.png",
         "title": "Step 4",
-        "description": "Get samples and sell the product."
+        "description": "Dihubungi oleh pihak BP dan pemberian kode voucher."
       }
     ]
   }
