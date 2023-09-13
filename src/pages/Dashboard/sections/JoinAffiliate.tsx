@@ -121,7 +121,7 @@ const JoinAffiliate = (props: { data: any }) => {
         </TabPanels>
       </Tabs>
       <Link
-        to={"https://bpgamestore.com/auth/login"}
+        to={props.data.link_form}
         target="_blank"
         style={{ alignSelf: "center" }}
       >

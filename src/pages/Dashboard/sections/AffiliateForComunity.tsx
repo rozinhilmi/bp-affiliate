@@ -31,10 +31,10 @@ const AffiliateForComunity = (props: { data: any }) => {
         width={{ base: "60%", md: "40%" }}
       />
       <Stack
-        alignItems={"flex-start"}
-        textAlign={"start"}
+        alignItems={{ base: "center", md: "flex" }}
+        textAlign={{ base: "center", md: "start" }}
         gap={"20px"}
-        width={{ base: "60%", md: "40%" }}
+        width={{ base: "90%", md: "40%" }}
       >
         <Text
           as={"b"}

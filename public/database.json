@@ -93,6 +93,7 @@
   },
   "join_affiliate": {
     "title": "Join BP Gamestore Affiliate now",
+    "link_form": "https://bpgamestore.com/auth/login",
     "kreator": [
       {
         "gambar": "shop-plan.png",
