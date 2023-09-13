@@ -1,4 +1,4 @@
-import { Image, ListItem, Stack, Text, UnorderedList } from "@chakra-ui/react";
+import { Image, Stack, Text } from "@chakra-ui/react";
 import {
   primaryTextColor,
   secondaryColor,
@@ -28,23 +28,22 @@ const AffiliateForCreator = (props: { data: any }) => {
       flexDirection={{ base: "column", lg: "row" }}
       data-aos="zoom-in-right"
     >
-      <Stack alignItems={"flex-start"} textAlign={"start"} gap={"20px"}>
+      <Stack
+        alignItems={"flex-start"}
+        textAlign={"start"}
+        gap={"20px"}
+        width={{ base: "60%", md: "40%" }}
+      >
         <Text
           as={"b"}
           fontSize={{ base: "2xl", lg: "5xl" }}
           color={primaryTextColor()}
-          lineHeight={"0.8"}
+          lineHeight={"1"}
         >
           {props.data.title}
         </Text>
 
-        <UnorderedList>
-          {props.data.list.map((item: string, index: number) => (
-            <ListItem color={secondaryTextColor()} key={index}>
-              {item}
-            </ListItem>
-          ))}
-        </UnorderedList>
+        <Text color={secondaryTextColor()}>{props.data.description}</Text>
       </Stack>
       <Image
         src={`/assets/${props.data.gambar}`}

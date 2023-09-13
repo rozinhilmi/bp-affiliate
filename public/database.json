@@ -20,22 +20,12 @@
   "kreator": {
     "gambar": "affiliate-for-seller.png",
     "title": "Affiliate untuk Kreator",
-    "list": [
-      "Lorem ipsum dolor sit amet",
-      "Consectetur adipiscing elit",
-      "Integer molestie lorem at massa",
-      "Facilisis in pretium nisl aliquet"
-    ]
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet eum quo nobis voluptas facilis quia ex tenetur illum culpa atque!"
   },
   "komunitas": {
     "gambar": "affiliate-for-creator.png",
     "title": "Affiliate untuk Komunitas",
-    "list": [
-      "Lorem ipsum dolor sit amet",
-      "Consectetur adipiscing elit",
-      "Integer molestie lorem at massa",
-      "Facilisis in pretium nisl aliquet"
-    ]
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet eum quo nobis voluptas facilis quia ex tenetur illum culpa atque!"
   },
   "plan": {
     "title": "Affiliate Plans",
