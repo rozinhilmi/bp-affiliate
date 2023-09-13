@@ -18,7 +18,7 @@ const Benefits = (props: { data: any }) => {
       // bg={secondaryColor()}
       margin={{ base: "0px", md: "20px" }}
       borderRadius={"12px"}
-      id="join-comunity"
+      id="benefit"
       gap={"60px"}
       minHeight={{ base: "85vh", lg: "700px" }}
       justifyContent={"center"}

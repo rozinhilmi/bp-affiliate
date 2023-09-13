@@ -125,7 +125,12 @@ const JoinAffiliate = (props: { data: any }) => {
         target="_blank"
         style={{ alignSelf: "center" }}
       >
-        <Button width={"100%"} colorScheme="blue" borderRadius={"50px"}>
+        <Button
+          width={"100%"}
+          colorScheme="blue"
+          borderRadius={"50px"}
+          size={"lg"}
+        >
           Gabung Sekarang
         </Button>
       </Link>

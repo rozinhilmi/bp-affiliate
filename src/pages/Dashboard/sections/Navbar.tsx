@@ -77,6 +77,16 @@ const Navbar = () => {
                 Plan
               </Text>
             </a>
+            <a href="#benefit">
+              <Text
+                color={primaryTextColor()}
+                _hover={{ color: "rgb(49, 130, 206)" }}
+                as={"b"}
+                cursor={"pointer"}
+              >
+                Keuntungan
+              </Text>
+            </a>
           </HStack>
 
           <a href={"#join-comunity"}>
@@ -170,6 +180,16 @@ const Navbar = () => {
             }}
           >
             Plan
+          </Button>
+          <Button
+            variant={"solid"}
+            colorScheme="facebook"
+            onClick={() => {
+              setShowSidebar(false);
+              window.location.href = "#benefit";
+            }}
+          >
+            Keuntungan
           </Button>
 
           <Button
