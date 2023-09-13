@@ -10,6 +10,7 @@ import JoinAffiliate from "./sections/JoinAffiliate";
 import Footer from "./sections/Footer";
 import { useEffect, useState } from "react";
 import axios from "axios";
+import { Helmet } from "react-helmet";
 
 const page = () => {
   const [data, setData]: any = useState();
@@ -20,32 +21,39 @@ const page = () => {
     getData();
   }, []);
   return (
-    <Stack
-      width={"100%"}
-      justifyContent={"center"}
-      alignItems={"center"}
-      backgroundColor={primaryColor()}
-    >
-      {data ? (
-        <Stack
-          width={"100%"}
-          maxWidth={"1440px"}
-          backgroundColor={primaryColor()}
-          position={"relative"}
-          // minHeight={"80vh"}
-        >
-          <Navbar />
-          <Carousel data={data.carousel_content} />
-          <Target data={data.target} />
-          <AffiliateForCreator data={data.kreator} />
-          <AffiliateForComunity data={data.komunitas} />
+    <>
+      <Helmet>
+        <title>Affiliate | BP Gamestore</title>
+        <meta name="description" content="description example" />
+        <meta name="keywords" content="example keywords" />
+      </Helmet>
+      <Stack
+        width={"100%"}
+        justifyContent={"center"}
+        alignItems={"center"}
+        backgroundColor={primaryColor()}
+      >
+        {data ? (
+          <Stack
+            width={"100%"}
+            maxWidth={"1440px"}
+            backgroundColor={primaryColor()}
+            position={"relative"}
+            // minHeight={"80vh"}
+          >
+            <Navbar />
+            <Carousel data={data.carousel_content} />
+            <Target data={data.target} />
+            <AffiliateForCreator data={data.kreator} />
+            <AffiliateForComunity data={data.komunitas} />
 
-          <AffiliatePlans data={data.plan} />
-          <JoinAffiliate data={data.join_affiliate} />
-          <Footer />
-        </Stack>
-      ) : null}
-    </Stack>
+            <AffiliatePlans data={data.plan} />
+            <JoinAffiliate data={data.join_affiliate} />
+            <Footer />
+          </Stack>
+        ) : null}
+      </Stack>
+    </>
   );
 };
 
