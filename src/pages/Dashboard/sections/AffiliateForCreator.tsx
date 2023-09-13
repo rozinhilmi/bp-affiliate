@@ -26,13 +26,13 @@ const AffiliateForCreator = (props: { data: any }) => {
       justifyContent={{ base: "center", lg: "space-around" }}
       alignItems={"center"}
       flexDirection={{ base: "column", lg: "row" }}
-      data-aos="zoom-in-right"
     >
       <Stack
-        alignItems={{ base: "center", md: "flex" }}
+        alignItems={{ base: "center", md: "flex-start" }}
         textAlign={{ base: "center", md: "start" }}
         gap={"20px"}
         width={{ base: "90%", md: "40%" }}
+        data-aos="zoom-in-right"
       >
         <Text
           as={"b"}
@@ -46,6 +46,7 @@ const AffiliateForCreator = (props: { data: any }) => {
         <Text color={secondaryTextColor()}>{props.data.description}</Text>
       </Stack>
       <Image
+        data-aos="zoom-in-left"
         src={`/assets/${props.data.gambar}`}
         width={{ base: "60%", md: "40%" }}
       />

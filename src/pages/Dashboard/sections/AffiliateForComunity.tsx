@@ -24,17 +24,19 @@ const AffiliateForComunity = (props: { data: any }) => {
       justifyContent={{ base: "center", lg: "space-around" }}
       alignItems={"center"}
       flexDirection={{ base: "column", lg: "row" }}
-      data-aos="zoom-in-left"
+      data-aos="fade-top"
     >
       <Image
         src="/assets/affiliate-for-creator.png"
         width={{ base: "60%", md: "40%" }}
+        data-aos="zoom-in-right"
       />
       <Stack
-        alignItems={{ base: "center", md: "flex" }}
+        alignItems={{ base: "center", md: "flex-start" }}
         textAlign={{ base: "center", md: "start" }}
         gap={"20px"}
         width={{ base: "90%", md: "40%" }}
+        data-aos="zoom-in-left"
       >
         <Text
           as={"b"}

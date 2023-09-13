@@ -40,6 +40,7 @@ const page = () => {
             maxWidth={"1440px"}
             backgroundColor={primaryColor()}
             position={"relative"}
+            overflowX={"hidden"}
             // minHeight={"80vh"}
           >
             <Navbar />
