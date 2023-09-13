@@ -75,6 +75,32 @@
       }
     ]
   },
+
+  "benefits": {
+    "title": "Keuntungan Affiliator",
+    "data": [
+      {
+        "gambar": "shop-plan.png",
+        "title": "Shop Plan",
+        "description": "Quickly set a basic flat commission rate for all products."
+      },
+      {
+        "gambar": "open-plan.png",
+        "title": "Open Plan",
+        "description": "Create a special plan for particular products, open to all creators."
+      },
+      {
+        "gambar": "target-plan.png",
+        "title": "Targeted",
+        "description": "Invite particular creators to promote selected products."
+      },
+      {
+        "gambar": "open-plan.png",
+        "title": "Open Plan",
+        "description": "Create a special plan for particular products, open to all creators."
+      }
+    ]
+  },
   "join_affiliate": {
     "title": "Join BP Gamestore Affiliate now",
     "kreator": [

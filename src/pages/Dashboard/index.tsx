@@ -11,6 +11,7 @@ import Footer from "./sections/Footer";
 import { useEffect, useState } from "react";
 import axios from "axios";
 import { Helmet } from "react-helmet";
+import Benefits from "./sections/Benefeits";
 
 const page = () => {
   const [data, setData]: any = useState();
@@ -48,6 +49,7 @@ const page = () => {
             <AffiliateForComunity data={data.komunitas} />
 
             <AffiliatePlans data={data.plan} />
+            <Benefits data={data.benefits} />
             <JoinAffiliate data={data.join_affiliate} />
             <Footer />
           </Stack>

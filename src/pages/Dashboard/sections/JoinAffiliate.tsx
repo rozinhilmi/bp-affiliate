@@ -1,6 +1,7 @@
 import { Button, Image, Stack, TabIndicator, Text } from "@chakra-ui/react";
 import {
   primaryTextColor,
+  secondaryColor,
   secondaryTextColor,
 } from "../../../utils/constant/theme";
 import { Tabs, TabList, TabPanels, Tab, TabPanel } from "@chakra-ui/react";
@@ -17,7 +18,7 @@ const JoinAffiliate = (props: { data: any }) => {
     <Stack
       padding={{ base: "15px", lg: "30px" }}
       paddingY={"30px"}
-      // bg={secondaryColor()}
+      bg={secondaryColor()}
       margin={{ base: "0px", md: "20px" }}
       borderRadius={"12px"}
       id="join-comunity"
