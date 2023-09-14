@@ -28,12 +28,13 @@ const AffiliateForComunity = (props: { data: any }) => {
     >
       <Image
         src="/assets/affiliate-for-creator.png"
-        width={{ base: "60%", md: "40%" }}
+        width={{ base: "80%", md: "40%" }}
+        maxWidth={"400px"}
         data-aos="zoom-in-right"
       />
       <Stack
-        alignItems={{ base: "center", md: "flex-start" }}
-        textAlign={{ base: "center", md: "start" }}
+        alignItems={{ base: "center", lg: "flex-start" }}
+        textAlign={{ base: "center", lg: "start" }}
         gap={"20px"}
         width={{ base: "90%", md: "40%" }}
         data-aos="zoom-in-left"

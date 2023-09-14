@@ -42,7 +42,8 @@ const Target = (props: { data: any }) => {
       </Stack>
       <Image
         src={`/assets/${props.data.gambar}`}
-        width={{ base: "60%", md: "40%" }}
+        width={{ base: "80%", md: "40%" }}
+        maxWidth={"400px"}
         maxHeight={"700px"}
         data-aos="fade-up"
       />

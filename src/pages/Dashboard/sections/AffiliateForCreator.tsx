@@ -28,8 +28,8 @@ const AffiliateForCreator = (props: { data: any }) => {
       flexDirection={{ base: "column", lg: "row" }}
     >
       <Stack
-        alignItems={{ base: "center", md: "flex-start" }}
-        textAlign={{ base: "center", md: "start" }}
+        alignItems={{ base: "center", lg: "flex-start" }}
+        textAlign={{ base: "center", lg: "start" }}
         gap={"20px"}
         width={{ base: "90%", md: "40%" }}
         data-aos="zoom-in-right"
@@ -48,7 +48,8 @@ const AffiliateForCreator = (props: { data: any }) => {
       <Image
         data-aos="zoom-in-left"
         src={`/assets/${props.data.gambar}`}
-        width={{ base: "60%", md: "40%" }}
+        width={{ base: "80%", md: "40%" }}
+        maxWidth={"400px"}
       />
     </Stack>
   );

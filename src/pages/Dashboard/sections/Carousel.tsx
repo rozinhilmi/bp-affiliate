@@ -26,6 +26,7 @@ const Carousel = (props: { data: any }) => {
       bg={secondaryColor()}
       paddingX={{ base: "15px", lg: "30px" }}
       borderBottomRightRadius={"40%"}
+      flexDir={{ base: "column-reverse", md: "row" }}
     >
       <Stack
         gap={"20px"}
@@ -50,7 +51,8 @@ const Carousel = (props: { data: any }) => {
       </Stack>
 
       <Image
-        width={{ base: "60%", md: "40%" }}
+        width={{ base: "80%", md: "40%" }}
+        maxWidth={"400px"}
         objectFit={"contain"}
         src={`/assets/${props.data.gambar}`}
         loading="lazy"
