@@ -19,7 +19,7 @@ const Carousel = (props: { data: any }) => {
       width={"100%"}
       minHeight={{ base: "85vh", lg: "700px" }}
       paddingY={"40px"}
-      gap={"5px"}
+      gap={"20px"}
       flexWrap={"wrap"}
       id="Carousel"
       paddingTop={"2.2cm"}
